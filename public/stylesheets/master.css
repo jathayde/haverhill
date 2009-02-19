@@ -13,7 +13,38 @@ body {
   text-align: left;
   width: 920px;
   margin: 0 auto;
+  position: relative;
 }
+
+
+#logo_main {
+  position: absolute;
+  top: 12px;
+  left: -35px;
+}
+
+
+ul#nav {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+ul#nav li a {
+  display: block;
+  height: 30px;
+  padding: 20px 8px;
+}
+
 
 
 /* MSIE PNG HACK */
