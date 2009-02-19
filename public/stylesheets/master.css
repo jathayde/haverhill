@@ -76,5 +76,12 @@ ul#nav li a {
   padding: 10px;
 }
 
+div.harvardrule {
+  height: 2px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 5px 0;
+}
+
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
