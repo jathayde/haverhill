@@ -76,6 +76,13 @@ ul#nav li a {
   padding: 10px;
 }
 
+#taskerhome {
+  position: absolute;
+  top: 285px;
+  right: -30px;
+  z-index: 1000;
+}
+
 div.harvardrule {
   height: 2px;
   border-top: 1px solid #ccc;
