@@ -1,7 +1,0 @@
-body {
-  background: #1179bb url("../images/background.png") top left repeat-x;
-}
-
-
-/* MSIE PNG HACK */
-img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
