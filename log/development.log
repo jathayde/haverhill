@@ -777,3 +777,81 @@ Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:01:49) [GET]
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:06:23) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:06:47) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:02) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:08) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:12) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:15) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:23) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:27) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:31) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:42) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:07:48) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:09:57) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-19 17:10:05) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/]

@@ -52,7 +52,7 @@ ul#nav li a {
   top: 45px;
 }
 
-#news {
+#homenews {
   background-image: url("../images/news_bkgnd.jpg");
   position: absolute;
   top: 214px;
@@ -61,10 +61,19 @@ ul#nav li a {
   width: 300px;
 }
 
-#news h3 {
+#homenews h3 {
   position: relative;
   top: 47px;
   left: 205px;
+}
+
+#homebody {
+  width: 874px;
+  background-color: #fff;
+  position: relative;
+  top: 450px;
+  left: 22px;
+  padding: 10px;
 }
 
 /* MSIE PNG HACK */
