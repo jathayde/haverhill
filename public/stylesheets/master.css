@@ -21,6 +21,7 @@ body {
   position: absolute;
   top: 12px;
   left: -35px;
+  z-index: 1000;
 }
 
 
@@ -42,10 +43,29 @@ ul#nav li {
 ul#nav li a {
   display: block;
   height: 30px;
-  padding: 20px 8px;
+  padding: 22px 8px;
 }
 
+#feature_hp {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
 
+#news {
+  background-image: url("../images/news_bkgnd.jpg");
+  position: absolute;
+  top: 214px;
+  left: 2px;
+  height: 237px;
+  width: 300px;
+}
+
+#news h3 {
+  position: relative;
+  top: 47px;
+  left: 205px;
+}
 
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
