@@ -22,9 +22,27 @@
 
   <body>
     <div id="nest">
+      
+      <%= image_tag('logo_big_haverhill.png', :id => 'logo_main') %>
+      
       <ul id="nav">
-        <li>
+        <li><%= link_to image_tag('nav_news.png'), "", :id => "news" %></li>
+        <li><%= link_to image_tag('nav_eventcalendar.png'), "", :id => "events" %></li>
+        <li><%= link_to image_tag('nav_volunteer.png'), "", :id => "volunteer" %></li>
+        <li><%= link_to image_tag('nav_programs.png'), "", :id => "programs" %></li>
+        <li><%= link_to image_tag('nav_services.png'), "", :id => "services" %></li>
+        <li><%= link_to image_tag('nav_about.png'), "", :id => "about" %></li>
+        <li><%= link_to image_tag('nav_contact.png'), "", :id => "contact" %></li>
       </ul><!-- // end nav -->
+      
+      
+      
+      
+      
+<%= yield :layout %>
+      
+      
+      
     </div><!-- // end nest -->
   </body>
 </html>
