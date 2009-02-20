@@ -90,5 +90,30 @@ div.harvardrule {
   margin: 5px 0;
 }
 
+ul#homefeaturettes {
+  list-style-type:none;
+}
+
+ul#homefeaturettes li {
+  list-style-type:none;
+  float: left;
+  width: 205px;
+  margin: 0 5px;
+}
+
+ul#homefeaturettes li h2 {  
+  font-family: Georgia, Times, serif;
+  font-size: 18px;
+}
+
+ul#homefeaturettes li h2 a,
+ul#homefeaturettes li h2 a:link,
+ul#homefeaturettes li h2 a:hover,
+ul#homefeaturettes li h2 a:visited {
+  text-decoration: none;
+  color: #1179bb;
+}
+
+
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
