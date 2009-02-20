@@ -74,6 +74,7 @@ ul#nav li a {
   top: 450px;
   left: 22px;
   padding: 10px;
+  border-bottom: 8px solid #857b63;
 }
 
 #taskerhome {
@@ -102,6 +103,7 @@ ul#homefeaturettes li {
 }
 
 ul#homefeaturettes li h2 {  
+  margin-top: 5px;
   font-family: Georgia, Times, serif;
   font-size: 18px;
 }
