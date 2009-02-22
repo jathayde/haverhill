@@ -116,7 +116,8 @@ ul#homefeaturettes li h2 a:visited {
   color: #1179bb;
 }
 
-#footer {font-size: 10px;margin-top: 10px; position: relative; top: 450px; color: #fff; padding-left: 20px;}
+#footer {font-size: 10px;margin-top: 10px; color: #fff; padding-left: 20px;}
+body#home #footer {position: relative; top: 450px; }
 
 #footer p.right {float:right;}
 
