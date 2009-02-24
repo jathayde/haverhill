@@ -10,7 +10,10 @@ ActionController::Routing::Routes.draw do |map|
   map.programs   'programs',   :controller => 'pages', :action => 'programs'
   map.services   'services',   :controller => 'pages', :action => 'services'
   map.about      'about',      :controller => 'pages', :action => 'about'
-  map.contact    'contact',    :controller => 'pages', :action => 'contac'
+  map.contact    'contact',    :controller => 'pages', :action => 'contact'
+  
+  map.camp       'programs/camptasker', :controller => 'pages', :action => 'camp'
+  map.campreg    'programs/camptasker/register', :controller => 'pages', :action => 'campreg'
 
   # map.    :controller => 'pages', :action => ''
   
