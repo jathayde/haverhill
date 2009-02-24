@@ -53,10 +53,26 @@ ul#nav li a {
   padding: 22px 8px;
 }
 
+body#news ul#nav li a#news,
+body#events ul#nav li a#events,
+body#volunteer ul#nav li a#volunteer,
+body#programs ul#nav li a#programs,
+body#services ul#nav li a#services,
+body#about ul#nav li a#about,
+body#contact ul#nav li a#contact {
+  background: transparent url(../images/nav_bkgnd_active.png) repeat-x;
+  background-position: 0 10px;
+}
+
 #feature_hp {
   position: absolute;
   right: 0;
   top: 45px;
+}
+
+#feature_inside {
+  margin-top: 45px;
+  margin-left: 15px;
 }
 
 #homenews {
@@ -88,8 +104,7 @@ ul#nav li a {
 }
 
 #insidebody {
-  margin-top: 50px;
-  margin-left: 22px;
+  margin-left: 24px;
 }
 
 #taskerhome {
