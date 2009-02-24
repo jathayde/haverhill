@@ -1,7 +1,7 @@
 body {
   background: #1179bb url("../images/background.png") top left repeat-x;
   font-size: 11px;
-  line-height: 18px;
+  line-height: 20px;
   color: #666;
   font-family: Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
   margin: 0;
@@ -160,6 +160,16 @@ body#home #footer {position: relative; top: 450px; }
 
 #footer a, #footer a:link, #footer a:hover, #footer a:visited {color:#fff; text-decoration: none;}
 
+
+h2 {
+  font-size: 20px;
+  font-family: Georgia, Times, serif;
+  color: #006699;
+}
+
+#leftcol p, ul, ol {margin-bottom: 10px;}
+#leftcol ul {margin-left: 30px; list-style-type: disc;}
+#leftcol ol {margin-left: 30px; list-style-type: decimal;}
 
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
