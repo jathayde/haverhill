@@ -4927,3 +4927,99 @@ Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:26:13) [GET]
 Rendering template within layouts/application
 Rendering pages/about
 Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:36:17) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:36:19) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:06) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:09) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:24) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:28) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:31) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:43) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:38:45) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:39:06) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:39:08) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:40:20) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:40:22) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:40:24) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:40:37) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 15:40:39) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
