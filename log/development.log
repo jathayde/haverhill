@@ -4019,3 +4019,589 @@ Processing PagesController#volunteer (for 127.0.0.1 at 2009-02-24 14:43:01) [GET
 Rendering template within layouts/application
 Rendering pages/volunteer
 Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-24 14:44:11) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-24 14:44:45) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+
+
+ActionView::TemplateError (undefined local variable or method `program_url' for #<ActionView::Base:0x35b1474>) on line #20 of app/views/pages/index.html.erb:
+17:     </li>
+18:     <li>
+19:       <%= image_tag("hp_sm_program.jpg", :class => "", :size => "205x120") %>
+20:       <h2><%= link_to "2009 Program Schedule", program_url %></h2>
+21:       <p>See the history of the Haverhill Boys and Girls Club over the years through timeless pictures and stories from club alumni...</p>
+22:     </li>
+23:     <li>
+
+    /Users/jathayde/Sites/work/haverhill/app/views/pages/index.html.erb:20
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/bin/passenger-spawn-server:46
+
+Rendered /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (111.7ms)
+Rendered /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-24 14:44:55) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:45:03) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:46:11) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:46:17) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:46:21) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-24 14:46:29) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+
+
+ActionView::TemplateError (undefined local variable or method `program_url' for #<ActionView::Base:0x338e0ac>) on line #20 of app/views/pages/index.html.erb:
+17:     </li>
+18:     <li>
+19:       <%= image_tag("hp_sm_program.jpg", :class => "", :size => "205x120") %>
+20:       <h2><%= link_to "2009 Program Schedule", program_url %></h2>
+21:       <p>See the history of the Haverhill Boys and Girls Club over the years through timeless pictures and stories from club alumni...</p>
+22:     </li>
+23:     <li>
+
+    /Users/jathayde/Sites/work/haverhill/app/views/pages/index.html.erb:20
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/bin/passenger-spawn-server:46
+
+Rendered /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (106.6ms)
+Rendered /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.5ms)
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-02-24 14:46:37) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:46:42) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:46:50) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:46:53) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#volunteer (for 127.0.0.1 at 2009-02-24 14:47:11) [GET]
+Rendering template within layouts/application
+Rendering pages/volunteer
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#programs (for 127.0.0.1 at 2009-02-24 14:47:12) [GET]
+Rendering template within layouts/application
+Rendering pages/programs
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-24 14:47:12) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/feat_programs.jpg" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/bin/passenger-spawn-server:46
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PagesController#services (for 127.0.0.1 at 2009-02-24 14:47:13) [GET]
+Rendering template within layouts/application
+Rendering pages/services
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/services]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-24 14:47:14) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/feat_services.jpg" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/bin/passenger-spawn-server:46
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2009-02-24 14:47:14) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 14:47:15) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#volunteer (for 127.0.0.1 at 2009-02-24 14:47:16) [GET]
+Rendering template within layouts/application
+Rendering pages/volunteer
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#event_index (for 127.0.0.1 at 2009-02-24 14:47:17) [GET]
+Rendering template within layouts/application
+Rendering pages/event_index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/events]
+
+
+Processing PagesController#news (for 127.0.0.1 at 2009-02-24 14:47:18) [GET]
+Rendering template within layouts/application
+Rendering pages/news
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/news]
+
+
+Processing PagesController#news (for 127.0.0.1 at 2009-02-24 14:53:04) [GET]
+Rendering template within layouts/application
+Rendering pages/news
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/news]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-02-24 14:53:06) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#services (for 127.0.0.1 at 2009-02-24 14:53:10) [GET]
+Rendering template within layouts/application
+Rendering pages/services
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/services]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-24 14:53:10) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/feat_services.jpg" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/bin/passenger-spawn-server:46
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PagesController#programs (for 127.0.0.1 at 2009-02-24 14:53:11) [GET]
+Rendering template within layouts/application
+Rendering pages/programs
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-24 14:53:11) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/feat_programs.jpg" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/utils.rb:161:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.0.5/bin/passenger-spawn-server:46
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 14:53:12) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2009-02-24 14:53:12) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/contact]
+
+
+Processing PagesController#event_index (for 127.0.0.1 at 2009-02-24 14:53:13) [GET]
+Rendering template within layouts/application
+Rendering pages/event_index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/events]
+
+
+Processing PagesController#volunteer (for 127.0.0.1 at 2009-02-24 14:53:14) [GET]
+Rendering template within layouts/application
+Rendering pages/volunteer
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#news (for 127.0.0.1 at 2009-02-24 14:53:15) [GET]
+Rendering template within layouts/application
+Rendering pages/news
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/news]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-02-24 14:53:40) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/about]

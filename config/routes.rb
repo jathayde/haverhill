@@ -14,6 +14,9 @@ ActionController::Routing::Routes.draw do |map|
   
   map.camp       'programs/camptasker', :controller => 'pages', :action => 'camp'
   map.campreg    'programs/camptasker/register', :controller => 'pages', :action => 'campreg'
+  
+  map.history    'about/history', :controller => 'pages', :action => 'history'
+  map.director   'fromthedirector', :controller => 'pages', :action => 'director'
 
   # map.    :controller => 'pages', :action => ''
   
