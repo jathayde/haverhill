@@ -156,7 +156,7 @@ ul#homefeaturettes li h2 a:visited {
 #footer {font-size: 10px;margin-top: 10px; color: #fff; padding-left: 20px;}
 body#home #footer {position: relative; top: 450px; }
 
-#footer p.right {float:right;}
+#footer p.right {float:right; margin: 0;}
 
 #footer a, #footer a:link, #footer a:hover, #footer a:visited {color:#fff; text-decoration: none;}
 
