@@ -38,4 +38,12 @@ class PagesController < ApplicationController
   def campreg
     @body_id = "programs"
   end
+  
+  def history
+    @boby_id = "history"
+  end
+  
+  def director
+    @body_id = "director"
+  end
 end
