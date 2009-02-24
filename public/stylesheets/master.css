@@ -24,6 +24,13 @@ body {
   z-index: 1000;
 }
 
+#logo_inside {
+  position: absolute;
+  top: 12px;
+  left: -25px;
+  z-index:1000;
+}
+
 
 ul#nav {
   position: absolute;
@@ -67,14 +74,22 @@ ul#nav li a {
   left: 205px;
 }
 
-#homebody {
+#homebody, #insidebody {
   width: 874px;
   background-color: #fff;
+  padding: 10px;
+  border-bottom: 8px solid #857b63;
+}
+
+#homebody {
   position: relative;
   top: 450px;
   left: 22px;
-  padding: 10px;
-  border-bottom: 8px solid #857b63;
+}
+
+#insidebody {
+  margin-top: 50px;
+  margin-left: 22px;
 }
 
 #taskerhome {
