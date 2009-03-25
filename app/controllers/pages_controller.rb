@@ -27,6 +27,10 @@ class PagesController < ApplicationController
     @body_id = "about"
   end
   
+  def staff
+    @body_id = "about"
+  end
+  
   def contact
     @body_id = "contact"
   end
@@ -40,7 +44,7 @@ class PagesController < ApplicationController
   end
   
   def history
-    @boby_id = "history"
+    @body_id = "about"
   end
   
   def director

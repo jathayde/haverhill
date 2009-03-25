@@ -185,6 +185,14 @@ h2 {
   font-size: 20px;
   font-family: Georgia, Times, serif;
   color: #006699;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: Georgia, Times, serif;
+  color: #006699;
+  margin: 10px 0;
 }
 
 #leftcol p, ul, ol {margin-bottom: 10px;}
@@ -192,6 +200,7 @@ h2 {
 #leftcol ol {margin-left: 30px; list-style-type: decimal;}
 
 strong {font-weight: bold;}
+em {font-style: italic;}
 
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
