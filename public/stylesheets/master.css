@@ -173,13 +173,19 @@ body#home #footer {position: relative; top: 450px; }
   font-size: 10px;
 }
 
-p, p.box {margin: 10px 0;}
+p, p.box, 
+ul.box {margin: 10px 0 20px 0;}
 
-p.box {
+p.box,
+ul.box {
   padding: 10px;
   background-color: #edece9;
   border: 1px solid #c5c3bd;
 }
+
+ul.box li {}
+ul.box li span.week {float: left; font-weight: bold;}
+ul.box li span.date {margin-left: 60px;}
 
 h2 {
   font-size: 20px;
@@ -201,6 +207,12 @@ h3 {
 
 strong {font-weight: bold;}
 em {font-style: italic;}
+
+table#bus {width: 100%; margin-top: 0;}
+table#bus tr th {font-weight: bold;}
+table#bus tr td {padding: 5px;}
+table#bus tr.odd td {background-color:#edece9; }
+
 
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
