@@ -264,3 +264,97 @@ Processing PagesController#camp (for 127.0.0.1 at 2009-03-30 18:12:15) [GET]
 Rendering template within layouts/application
 Rendering pages/camp
 Completed in 10ms (View: 9, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-03-30 18:27:02) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#staff (for 127.0.0.1 at 2009-03-30 18:27:04) [GET]
+Rendering template within layouts/application
+Rendering pages/staff
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about/staff]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-03-30 18:27:06) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#staff (for 127.0.0.1 at 2009-03-30 18:27:08) [GET]
+Rendering template within layouts/application
+Rendering pages/staff
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://haverhill.dev/about/staff]
+
+
+Processing PagesController#news (for 127.0.0.1 at 2009-03-30 18:27:10) [GET]
+Rendering template within layouts/application
+Rendering pages/news
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/news]
+
+
+Processing PagesController#event_index (for 127.0.0.1 at 2009-03-30 18:27:10) [GET]
+Rendering template within layouts/application
+Rendering pages/event_index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/events]
+
+
+Processing PagesController#volunteer (for 127.0.0.1 at 2009-03-30 18:27:11) [GET]
+Rendering template within layouts/application
+Rendering pages/volunteer
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#programs (for 127.0.0.1 at 2009-03-30 18:27:12) [GET]
+Rendering template within layouts/application
+Rendering pages/programs
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/programs]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-03-30 18:27:12) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/feat_programs.jpg" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/utils.rb:176:in `safe_fork'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:149:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /usr/local/lib/ruby/gems/1.8/gems/passenger-2.1.2/bin/passenger-spawn-server:50
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2009-03-30 18:27:13) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://haverhill.dev/contact]
