@@ -19,6 +19,26 @@ class PagesController < ApplicationController
     @body_id = "programs"
   end
   
+  def arts
+    @body_id = "programs"
+  end
+  
+  def education
+    @body_id = "programs"
+  end
+  
+  def sport
+    @body_id = "programs"
+  end
+  
+  def health
+    @body_id = "programs"
+  end
+  
+  def character
+    @body_id = "programs"
+  end
+  
   def services
     @body_id = "services"
   end
