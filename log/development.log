@@ -1550,3 +1550,99 @@ Processing PagesController#programs (for 127.0.0.1 at 2009-03-30 19:35:54) [GET]
 Rendering template within layouts/application
 Rendering pages/programs
 Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/programs]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:06) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#volunteer (for 127.0.0.1 at 2009-03-30 19:38:08) [GET]
+Rendering template within layouts/application
+Rendering pages/volunteer
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:10) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#director (for 127.0.0.1 at 2009-03-30 19:38:11) [GET]
+Rendering template within layouts/application
+Rendering pages/director
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://haverhill.dev/fromthedirector]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:13) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#programs (for 127.0.0.1 at 2009-03-30 19:38:14) [GET]
+Rendering template within layouts/application
+Rendering pages/programs
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/programs]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:16) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#history (for 127.0.0.1 at 2009-03-30 19:38:18) [GET]
+Rendering template within layouts/application
+Rendering pages/history
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about/history]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:20) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#camp (for 127.0.0.1 at 2009-03-30 19:38:22) [GET]
+Rendering template within layouts/application
+Rendering pages/camp
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://haverhill.dev/programs/camptasker]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:23) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#volunteer (for 127.0.0.1 at 2009-03-30 19:38:24) [GET]
+Rendering template within layouts/application
+Rendering pages/volunteer
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://haverhill.dev/volunteer]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:26) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-03-30 19:38:27) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/about]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-30 19:38:29) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://haverhill.dev/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-03-31 14:17:55) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://haverhill.dev/]
