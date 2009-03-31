@@ -1,10 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
-  
+   
   # Home
   map.root :controller => 'pages', :action => 'index'
-  
   # Mapping pages for static delivery
-  map.news         'news',        :controller => 'pages', :action => 'news'
+  map.news         'news',        :controller => 'stories', :action => 'index'
   map.events       'events',      :controller => 'pages', :action => 'event_index'
   map.volunteer    'volunteer',   :controller => 'pages', :action => 'volunteer'
   map.programs     'programs',    :controller => 'pages', :action => 'programs'
@@ -23,10 +22,5 @@ ActionController::Routing::Routes.draw do |map|
                    
   map.history      'about/history', :controller => 'pages', :action => 'history'
   map.director     'fromthedirector', :controller => 'pages', :action => 'director'
-
-  # map.    :controller => 'pages', :action => ''
-  
-  # Install the default routes as the lowest priority.
-  # map.connect ':controller/:action/:id'
-  # map.connect ':controller/:action/:id.:format'
+  map.resources :stories 
 end

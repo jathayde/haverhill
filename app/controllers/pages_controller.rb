@@ -3,10 +3,6 @@ class PagesController < ApplicationController
     @body_id = "home"
   end
   
-  def news
-    @body_id = "news"
-  end
-  
   def event_index
     @body_id = "events"
   end
