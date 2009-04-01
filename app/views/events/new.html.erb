@@ -1,0 +1,34 @@
+
+
+<%= link_to(image_tag('logo_sm_haverhill.png', :id => 'logo_inside'), root_url) %>
+<%= image_tag('feat_event.jpg', :id => 'feature_inside') %>
+
+
+<div id="insidebody" class="clearfix">
+  <div class="harvardrule">&nbsp;</div>
+  <div id="rightcol">
+  </div>
+  <div id="leftcol">
+    <% form_for @event do |f| %>  
+    <%= f.error_messages %>
+	  <p>
+	  <%= f.label :name %>
+	  <%= f.text_field :name %>
+	  </p>
+	  <p>
+	  <%= f.label :description %>
+	  <%= f.text_area :description %>
+	  </p>
+	  <p>
+	  <%= f.label :location %>
+	  <%= f.text_area :location %>
+	  </p>
+	
+	  <%= f.submit %>
+    <% end %>
+	</div>
+</div><!-- // insidebody -->
+<div id="footer">
+  <p class="right"><%= link_to "B&amp;CG of America", ""  %> | <%= link_to "Legal Notice", ""  %> | <%= link_to "Terms of Use", "" %> | <%= link_to "Privacy Policy", "" %></p>
+  <p>&copy; 2009 Haverhill Boys and Girls Club. All Rights Reserved.</p>
+</div>

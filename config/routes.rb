@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :events
+
    
   # Home
   map.root :controller => 'pages', :action => 'index'
