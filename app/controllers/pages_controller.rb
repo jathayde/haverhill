@@ -1,12 +1,9 @@
 class PagesController < ApplicationController
+  skip_filter :set_body_id!
   def index
     @body_id = "home"
   end
-  
-  def event_index
-    @body_id = "events"
-  end
-  
+
   def volunteer
     @body_id = "volunteer"
   end

@@ -1,0 +1,9 @@
+<div id='upcoming_events'>
+<ul>
+<% Event.upcoming.each do |event| %>
+  <li>
+  <%= event.happens_on%> | <span class='name'><%= event.name %></span> <%= edit_if_logged_in(event) %>
+  </li>
+<% end %>
+</ul>
+</div>

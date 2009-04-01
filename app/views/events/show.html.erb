@@ -7,13 +7,22 @@
 <div id="insidebody" class="clearfix">
   <div class="harvardrule">&nbsp;</div>
   <div id="rightcol">
+	<%= render :partial => 'upcoming' %>
+	
   </div>
   <div id="leftcol">
 	<h2><%= @event.name %></h2>
+	<%= @event.happens %>
 	<p><%= h @event.description %></p>
 	<h2>Location</h2>
 	<p><%= h @event.location %></p>
 	</div>
+	<% if @event.registration_required? %>
+	<p>Requires registration</p>
+	<% end %>
+	<% if @event.fee_required? %>
+	<p>Requires fee</p>
+	<% end %>
 </div><!-- // insidebody -->
 <div id="footer">
   <p class="right"><%= link_to "B&amp;CG of America", ""  %> | <%= link_to "Legal Notice", ""  %> | <%= link_to "Terms of Use", "" %> | <%= link_to "Privacy Policy", "" %></p>

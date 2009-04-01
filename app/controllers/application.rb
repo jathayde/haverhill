@@ -3,13 +3,11 @@
 
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
-
-  # See ActionController::RequestForgeryProtection for details
-  # Uncomment the :secret if you're not using the cookie session store
+  before_filter :set_body_id!
   protect_from_forgery # :secret => 'f47741251635530ba2de6a0d0b7beb38'
-  
-  # See ActionController::Base for details 
-  # Uncomment this to filter the contents of submitted sensitive data parameters
-  # from your application log (in this case, all fields with names like "password"). 
-  # filter_parameter_logging :password
+  private
+    
+    def authenticate
+      logger.error "FIXME: need to implement authentication!"
+    end
 end

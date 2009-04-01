@@ -1,4 +1,6 @@
 class EventsController < ApplicationController
+  before_filter :authenticate, :only => [:new, :edit, :create, :update, :destroy]
+  
   def index
     @events = Event.all
   end
@@ -8,7 +10,7 @@ class EventsController < ApplicationController
   end
   
   def new
-    @event = Event.new
+    @event = Event.new(:happens_on => default_event_date, :happens_at => default_event_time)
   end
   
   def edit
@@ -34,4 +36,18 @@ class EventsController < ApplicationController
       render :action => 'new'
     end
   end
+  
+  def set_body_id!
+    @body_id = "events"
+  end
+  
+  def default_event_date
+    "MM/DD/YYYY"
+  end
+  
+  def default_event_time
+    "00:00"
+  end
+  helper_method :default_event_date
+  helper_method :default_event_time
 end

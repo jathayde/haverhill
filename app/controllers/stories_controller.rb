@@ -1,5 +1,4 @@
 class StoriesController < ApplicationController
-  before_filter :set_body_id!
   before_filter :authenticate, :only => [:new, :edit, :create, :update, :destroy]
   
   def show
@@ -32,8 +31,5 @@ class StoriesController < ApplicationController
     def set_body_id!
        @body_id = "news"
     end
-    
-    def authenticate
-      logger.error "FIXME: need to implement authentication!"
-    end
+
 end

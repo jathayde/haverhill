@@ -7,6 +7,7 @@
 <div id="insidebody" class="clearfix">
   <div class="harvardrule">&nbsp;</div>
   <div id="rightcol">
+	<%= render :partial => 'upcoming' %>
   </div>
   <div id="leftcol">
     <% form_for @event do |f| %>  
@@ -16,14 +17,21 @@
 	  <%= f.text_field :name %>
 	  </p>
 	  <p>
+	  <%= f.label :location %>
+	  <%= f.text_field :location %>
+	  </p>
+	  <p>
+	  <%= f.label :happens_on, "Date & Time" %>
+	  <%= f.text_field :happens_on, clear_on_select(default_event_date) %><%= f.text_field :happens_at, clear_on_select(default_event_time) %>
+	  </p>
+	  <p>
 	  <%= f.label :description %>
 	  <%= f.text_area :description %>
 	  </p>
 	  <p>
-	  <%= f.label :location %>
-	  <%= f.text_area :location %>
+		<%= f.check_box :registration_required %> Registration required for this event <br/>
+		<%= f.check_box :fee_required %> Fee required for this event
 	  </p>
-	
 	  <%= f.submit %>
     <% end %>
 	</div>
