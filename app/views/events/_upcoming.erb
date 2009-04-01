@@ -7,3 +7,7 @@
 <% end %>
 </ul>
 </div>
+
+<% if logged_in? %>
+  <%= link_to "[add]", new_event_path %>
+<% end %>

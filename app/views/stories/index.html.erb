@@ -16,6 +16,10 @@
 		  <div class='story-body'><%= h story.body %></div>
 		<% end %>
 	<% end %>  
+	
+	<% if logged_in? %>
+	  <%= link_to '[add]', new_story_path %>
+	<% end %>
 	</div>
 </div><!-- // insidebody -->
 <div id="footer">
