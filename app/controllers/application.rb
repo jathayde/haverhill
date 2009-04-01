@@ -4,10 +4,12 @@
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   before_filter :set_body_id!
+  include AuthenticatedSystem
+  
   protect_from_forgery # :secret => 'f47741251635530ba2de6a0d0b7beb38'
   private
     
     def authenticate
-      logger.error "FIXME: need to implement authentication!"
+     login_required
     end
 end
