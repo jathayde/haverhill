@@ -215,6 +215,8 @@ table#bus tr th {font-weight: bold;}
 table#bus tr td {padding: 5px;}
 table#bus tr.odd td {background-color:#edece9; }
 
+img.headshot {float: right; border: 1px solid #999; margin-left: 10px;}
+
 
 /* MSIE PNG HACK */
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
