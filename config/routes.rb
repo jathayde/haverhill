@@ -19,6 +19,7 @@ ActionController::Routing::Routes.draw do |map|
   map.services     'services',    :controller => 'pages', :action => 'services'
   map.about        'about',       :controller => 'pages', :action => 'about'
   map.staff        'about/staff', :controller => 'pages', :action => 'staff'
+  map.board        'about/board', :controller => 'pages', :action => 'board'
   map.contact      'contact',     :controller => 'pages', :action => 'contact'
                    
   map.camp         'programs/camptasker', :controller => 'pages', :action => 'camp'

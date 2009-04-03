@@ -44,6 +44,10 @@ class PagesController < ApplicationController
     @body_id = "about"
   end
   
+  def board
+    @body_id = "about"
+  end
+  
   def contact
     @body_id = "contact"
   end
