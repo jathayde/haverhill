@@ -11,7 +11,7 @@
   <div id="leftcol">
 	<% @events.each do |event| %>
 		<% div_for event, :class => 'event' do %>
-		  <div class='name'><%= link_to event.name, event %></div>
+		  <div class='name'><%= event.happens_on %> <%= link_to event.name, event %></div>
 		  <div class='description'><%= event.description %></div>
 		  <div class='location'><%= h event.location %></div>
 		<% end %>

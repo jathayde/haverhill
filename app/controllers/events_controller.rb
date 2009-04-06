@@ -2,7 +2,7 @@ class EventsController < ApplicationController
   before_filter :authenticate, :only => [:new, :edit, :create, :update, :destroy]
   
   def index
-    @events = Event.all
+    @events = Event.all(:order => "happens_on ASC")
   end
   
   def show
