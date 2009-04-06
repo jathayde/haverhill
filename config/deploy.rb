@@ -9,6 +9,9 @@ role :app, "haverhill.infoether.com"
 role :web, "haverhill.infoether.com"
 role :db,  "haverhill.infoether.com", :primary => true
 
+set :use_sudo, false
+set :group, "infoether"
+
 task :move_in_database_yml, :roles => :app do
   run "cp #{deploy_to}/shared/system/database.yml #{current_path}/config/"
 end
