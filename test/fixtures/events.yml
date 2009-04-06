@@ -1,4 +1,15 @@
 --- 
+events_019: 
+  name: Club Hours 9 - 5
+  updated_at: 2009-04-06 16:53:31
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-04-10"
+  fee_required: f
+  id: "22"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:53:31
+  location: ""
 events_008: 
   name: Camp Tasker (Week 3)
   updated_at: 2009-04-06 16:31:52
@@ -9,6 +20,17 @@ events_008:
   description: ""
   registration_required: t
   created_at: 2009-04-06 16:31:52
+  location: ""
+events_020: 
+  name: Club Closed
+  updated_at: 2009-04-06 16:53:49
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-05-25"
+  fee_required: f
+  id: "23"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:53:49
   location: ""
 events_009: 
   name: Camp Tasker (Week 4)
@@ -21,6 +43,17 @@ events_009:
   registration_required: t
   created_at: 2009-04-06 16:32:07
   location: ""
+events_021: 
+  name: Club Hours 9 - 5pm
+  updated_at: 2009-04-06 16:54:05
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-04-20"
+  fee_required: f
+  id: "24"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:54:05
+  location: ""
 events_010: 
   name: Camp Tasker (Week 5)
   updated_at: 2009-04-06 16:32:23
@@ -32,6 +65,17 @@ events_010:
   registration_required: t
   created_at: 2009-04-06 16:32:23
   location: ""
+events_022: 
+  name: Club Hours 9 - 5pm
+  updated_at: 2009-04-06 16:54:11
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-04-21"
+  fee_required: f
+  id: "25"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:54:11
+  location: ""
 events_011: 
   name: Camp Tasker (Week 6)
   updated_at: 2009-04-06 16:32:52
@@ -42,6 +86,17 @@ events_011:
   description: ""
   registration_required: t
   created_at: 2009-04-06 16:32:52
+  location: ""
+events_023: 
+  name: Club Hours 9 - 5pm
+  updated_at: 2009-04-06 16:54:17
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-04-22"
+  fee_required: f
+  id: "26"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:54:17
   location: ""
 events_012: 
   name: Camp Tasker (Week 7)
@@ -65,6 +120,17 @@ events_001:
   registration_required: f
   created_at: 2009-04-06 16:29:11
   location: ""
+events_024: 
+  name: Club Hours 9 - 5pm
+  updated_at: 2009-04-06 16:54:23
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-04-23"
+  fee_required: f
+  id: "27"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:54:23
+  location: ""
 events_013: 
   name: Camp Tasker (Week 8)
   updated_at: 2009-04-06 16:33:26
@@ -87,6 +153,17 @@ events_002:
   registration_required: f
   created_at: 2009-04-06 16:29:49
   location: Haverhill High School
+events_025: 
+  name: Club Hours 9 - 5pm
+  updated_at: 2009-04-06 16:54:28
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-04-24"
+  fee_required: f
+  id: "28"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:54:28
+  location: ""
 events_014: 
   name: Golf Outing
   updated_at: 2009-04-06 16:33:47
@@ -99,8 +176,8 @@ events_014:
   created_at: 2009-04-06 16:33:47
   location: Haverhill Country Club
 events_003: 
-  name: Sports Banquet
-  updated_at: 2009-04-06 16:30:05
+  name: The Awards Banquet for all Basketball Leagues
+  updated_at: 2009-04-06 16:53:16
   happens_at: 2000-01-01 00:00:00
   happens_on: "2009-04-14"
   fee_required: f
@@ -108,7 +185,7 @@ events_003:
   description: ""
   registration_required: f
   created_at: 2009-04-06 16:30:05
-  location: ""
+  location: The Elks Club
 events_015: 
   name: Camp Tasker, Final Week (Week 9)
   updated_at: 2009-04-06 16:34:06
@@ -131,6 +208,17 @@ events_004:
   registration_required: f
   created_at: 2009-04-06 16:30:31
   location: Framingham State College
+events_016: 
+  name: Camp Registration begins
+  updated_at: 2009-04-06 16:51:37
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-03-10"
+  fee_required: f
+  id: "19"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:51:37
+  location: ""
 events_005: 
   name: Final Day of After School Program
   updated_at: 2009-04-06 16:30:48
@@ -141,6 +229,17 @@ events_005:
   description: ""
   registration_required: f
   created_at: 2009-04-06 16:30:48
+  location: ""
+events_017: 
+  name: Playoffs begin for all sports teams
+  updated_at: 2009-04-06 16:52:02
+  happens_at: 2000-01-01 00:00:00
+  happens_on: "2009-03-20"
+  fee_required: f
+  id: "20"
+  description: ""
+  registration_required: f
+  created_at: 2009-04-06 16:52:02
   location: ""
 events_006: 
   name: Camp Tasker Opens (Week 1)
@@ -153,6 +252,17 @@ events_006:
   registration_required: t
   created_at: 2009-04-06 16:31:19
   location: ""
+events_018: 
+  name: New England Patriots vs. Alumni Basketball Game
+  updated_at: 2009-04-06 16:52:45
+  happens_at: 2000-01-01 19:00:00
+  happens_on: "2009-04-02"
+  fee_required: t
+  id: "21"
+  description: $10 per person
+  registration_required: f
+  created_at: 2009-04-06 16:52:45
+  location: Haverhill High School
 events_007: 
   name: Camp Tasker (Week 2)
   updated_at: 2009-04-06 16:31:36
