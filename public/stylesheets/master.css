@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+a, a:link {color: #0d669e; font-weight: bold; text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:visited {color: #668395;}
+
 #nest {
   text-align: left;
   width: 920px;
@@ -222,7 +226,3 @@ img.headshot {float: right; border: 1px solid #999; margin-left: 10px;}
 img, ul#nav li a, ul#nav li a:link {behavior:url('iepngfix.htc');}
 
 
-.event {
-  border:1px solid gray;
-  margin-bottom:5px;
-}
