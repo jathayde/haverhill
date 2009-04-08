@@ -15,6 +15,8 @@ role :db,  "www.haverhillbgc.com", :primary => true
 set :use_sudo, false
 set :group, "infoether"
 
+set(:rails_env) {"#{stage}"}
+
 task :move_in_database_yml, :roles => :app do
   run "cp #{deploy_to}/shared/system/database.yml #{current_path}/config/"
 end
