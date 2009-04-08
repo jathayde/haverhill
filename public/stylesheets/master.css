@@ -13,6 +13,8 @@ a, a:link {color: #0d669e; font-weight: bold; text-decoration: none;}
 a:hover {text-decoration: underline;}
 a:visited {color: #668395;}
 
+body#home h2 a, a:link {font-weight: normal;}
+
 #nest {
   text-align: left;
   width: 920px;
