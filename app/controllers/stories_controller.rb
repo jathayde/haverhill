@@ -2,6 +2,7 @@ class StoriesController < ApplicationController
   before_filter :authenticate, :only => [:new, :edit, :create, :update, :destroy]
   
   def show
+    @page_title = "News"
     @story = Story.find(params[:id])
   end
 

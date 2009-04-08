@@ -2,6 +2,7 @@ class EventsController < ApplicationController
   before_filter :authenticate, :only => [:new, :edit, :create, :update, :destroy]
   
   def index
+    @page_title = "Events"
     year  = params[:year]  || Time.now.year
     month = params[:month] || Time.now.month
     @month = Date.new(year, month)
@@ -10,6 +11,7 @@ class EventsController < ApplicationController
   
   def show
     @event = Event.find(params[:id])
+    @page_title = "Event Detail | #{@event.name}"
   end
   
   def new
