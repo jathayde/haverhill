@@ -67,4 +67,12 @@ class PagesController < ApplicationController
   def director
     @body_id = "director"
   end
+  
+  def legal
+    @body_id = "about"
+  end
+  
+  def terms
+    @body_id = "about"
+  end
 end

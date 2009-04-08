@@ -2,7 +2,10 @@ class EventsController < ApplicationController
   before_filter :authenticate, :only => [:new, :edit, :create, :update, :destroy]
   
   def index
-    @events = Event.all(:order => "happens_on ASC")
+    year  = params[:year]  || Time.now.year
+    month = params[:month] || Time.now.month
+    @month = Date.new(year, month)
+    @events = Event.month_calendar_events_for(@month)
   end
   
   def show

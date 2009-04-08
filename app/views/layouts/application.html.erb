@@ -15,6 +15,7 @@
     <%= stylesheet_link_tag 'reset', :media => 'screen, projection' %>
     <%= stylesheet_link_tag 'master', :media => 'screen, projection' %>
     <%= stylesheet_link_tag 'clearfix', :media => 'screen, projection' %>
+    <%= stylesheet_link_tag 'calendar/athayde/style', :media => 'screen, projection' %>
     <!--[if lte IE 7]>
     <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/iewin.css" />
     <![endif]-->
@@ -36,6 +37,10 @@
 <%= yield :layout %>
       
       
+      <div id="footer">
+        <p class="right"><%= link_to "B&amp;CG of America", "http://www.bgca.org/"  %> | <%= link_to "Legal Notice", legal_url  %> | <%= link_to "Terms of Use", terms_url %></p>
+        <p>&copy; 2009 Haverhill Boys and Girls Club. All Rights Reserved.</p>
+      </div>
       
     </div><!-- // end nest -->
   </body>

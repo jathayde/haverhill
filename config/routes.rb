@@ -8,7 +8,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :session
 
   map.resources :events
-
+  map.resources :stories 
    
   # Home
   map.root :controller => 'pages', :action => 'index'
@@ -32,5 +32,8 @@ ActionController::Routing::Routes.draw do |map|
                    
   map.history      'about/history', :controller => 'pages', :action => 'history'
   map.director     'fromthedirector', :controller => 'pages', :action => 'director'
-  map.resources :stories 
+  
+  map.legal        'about/legal', :controller => 'pages', :action => 'legal'
+  map.terms        'about/terms_of_use', :controller => 'pages', :action => 'terms'
+
 end

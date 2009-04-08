@@ -1,0 +1,29 @@
+-------------------
+GIT COMMANDS
+- - - - - - - - - -
+git clone git@github.com:boboroshi/haverhill.git
+
+#after edits, check status
+git status
+
+#add all new files
+git add *
+
+#commit locally. -a means everything. you can also list files here.
+git commit -a -m "message"
+
+#to send that back to the home repo
+git push origin master
+
+#to update from the master:
+git pull
+
+
+
+#to ensure github is using the correct username, add this to .ssh/config
+Host github.com
+  User ryanowens
+
+#also add your id_dsa.pub to the ssh keys on github
+
+

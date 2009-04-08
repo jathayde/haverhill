@@ -1,0 +1,92 @@
+/*
+  A grey based theme, inspired by Blinksale and their ColorBurn widget. http://firewheeldesign.com
+  
+  AUTHOR: Geoffrey Grosenbach http://nubyonrails.com
+  
+  Colors: 
+    dk: 787888
+    lt: 4f4f5b
+    lter: a8a8a8
+    white: ffffff
+*/
+
+/* TODO */
+
+.calendar {
+  margin: auto;
+  color: #666;
+  text-align: center;
+}
+
+thead tr {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.monthName th {
+  font-weight: normal;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.7em;
+  color: black;
+}
+
+.dayName th {
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 0.6em;
+  padding-bottom: 0.3em;
+  color: #666;
+  border-bottom: 1px solid #999;
+}
+
+.otherMonth, .day, .specialDay {
+  padding: 0.7em 1em;
+  border-right: 1px solid #999;
+}
+
+.otherMonth {
+  color: #999999;
+  background-color: #f3efe8;
+  border-bottom: 1px solid #999;
+}
+
+.day, .specialDay {
+  width: 14%;
+  border-bottom: 1px solid #999;
+  background-color: #fff;
+}
+.specialDay {
+  background-color: #f3efe8;
+  color: black;
+}
+.specialDay a, .specialDay a:visited, .specialDay a:hover {
+  color: #333;
+  text-decoration: none;
+  padding: 1em;
+}
+.specialDay a:hover {
+  color: #333;
+  background-color: #e6ddcc;
+}
+.weekendDay {
+  background-color: #e6ddcc;
+}
+.today {
+	background-color: white;
+	color: black;
+}
+
+.event {
+  font-size: 0.8em;
+  line-height: 1.3em;
+  margin-bottom:10px;
+}
+
+Colors: 
+  dk: 787888
+  lt: 4f4f5b
+  lter: a8a8a8
+  white: ffffff
+
