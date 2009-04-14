@@ -3,8 +3,8 @@ class EventsController < ApplicationController
   
   def index
     @page_title = "Events"
-    year  = params[:year]  || Time.now.year
-    month = params[:month] || Time.now.month
+    year  = params[:year] ? params[:year].to_i : Time.now.year
+    month = params[:month] ? params[:month].to_i : Time.now.month
     @month = Date.new(year, month)
     @events = Event.month_calendar_events_for(@month)
   end
