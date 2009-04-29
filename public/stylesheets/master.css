@@ -15,6 +15,8 @@ a:visited {color: #668395;}
 
 body#home h2 a, a:link {font-weight: normal;}
 
+
+
 #nest {
   text-align: left;
   width: 920px;
@@ -196,6 +198,7 @@ ul.box li span.date {margin-left: 60px;}
 h2 {
   font-size: 20px;
   font-family: Georgia, Times, serif;
+  font-weight: normal;
   color: #006699;
   margin: 10px 0;
 }
@@ -203,6 +206,7 @@ h2 {
 h3 {
   font-size: 16px;
   font-family: Georgia, Times, serif;
+  font-weight: normal;
   color: #006699;
   margin: 10px 0;
 }
