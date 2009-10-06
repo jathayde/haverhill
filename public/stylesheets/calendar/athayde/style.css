@@ -30,6 +30,7 @@ thead tr {
   padding-top: 1em;
   padding-bottom: 0.7em;
   color: black;
+  border-left: 0;
 }
 
 .dayName th {
@@ -39,12 +40,16 @@ thead tr {
   padding-bottom: 0.3em;
   color: #666;
   border-bottom: 1px solid #999;
+  border-left: 0;
 }
 
 .otherMonth, .day, .specialDay {
   padding: 0.7em 1em;
   border-right: 1px solid #999;
 }
+
+td.weekendday {border-left: 1px solid #999;}
+td.weekendday:last_child {border-left: 0;}
 
 .otherMonth {
   color: #999999;
